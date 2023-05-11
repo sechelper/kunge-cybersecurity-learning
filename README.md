@@ -24,8 +24,8 @@
 
 **✨【必看】使用方法**   👉  [【传送门（还没录制，占坑）】](https://space.bilibili.com/1233892570)
 
-1. 先给坤哥安排一个`start`
-2. 【非必选】`fork`仓库到个人`github`账户（笔记可以离线使用），稍后推荐一个git学习教程
+1. 先给坤哥安排一个`star`，仓库地址 👉 [【传送门】](https://github.com/sechelper/kunge-cybersecurity-learning)
+2. 【非必选】`fork` [坤式网安学习法仓库](https://github.com/sechelper/kunge-cybersecurity-learning)_到自己的`github`账户（笔记可以离线使用），稍后推荐一个git学习教程
 3. 下载学习法到本地（推荐使用`Typroa`打开），选择适合个人的学习路线点击进去
 4. 学完一项技术点前面打对勾，表示学习完成，回头复习轻松又满足
 5. 每项技术有提供文章、方法和工具，你也可以记录笔记，大段文本放到note目录，学习将会是一个整体。
@@ -35,6 +35,8 @@
 
 ## 📚学习路线
 
+点击下方链接查看学习路线，本站为在线演示，选项框是不可勾选的，使用方法参考<a href="#/README?id=%f0%9f%a4%94%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8%ef%bc%9f" data-id="🤔如何使用？" class="anchor"><span>🤔如何使用？</span></a>操作
+
 - [渗透红队](red-team.md)
 - [逆向工程（敬请期待）](reverse.md)
 - [代码审计（敬请期待）](codereview.md)
@@ -42,7 +44,7 @@
 
 ## 💡未来想法
 
-⭐大家记得`start`持续关注，以下更新第一时间分享到[【b站】（点赞、收藏、投币三连支持坤哥继续创作）](https://space.bilibili.com/1233892570)
+⭐大家记得`star`持续关注，以下更新第一时间分享到[【b站】（点赞、收藏、投币三连支持坤哥继续创作）](https://space.bilibili.com/1233892570)
 
 以下是未来的一些计划：
 

@@ -56,7 +56,7 @@
 
 - [ ] 子网掩码（B段、C段）
 
-	- [ ] 如何理解子网掩码？（https://www.zhihu.com/question/56895036）
+	- [ ] [如何理解子网掩码？](https://www.zhihu.com/question/56895036)
 
 	- [ ] 工具
 
@@ -68,7 +68,7 @@
 
 - [ ] ASN
 
-	- 什么是自治系统？| 什么是 ASN？（https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/）
+	- [什么是自治系统？| 什么是 ASN？](https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/)
 
 	- ASN 查询
 
@@ -124,13 +124,13 @@
 
 - [ ] 网络空间搜索引擎
 
-	- [ ] FOFA（https://fofa.info/）
+	- [ ] [FOFA](https://fofa.info/)
 
-	- [ ] Shadow（https://www.shodan.io/）
+	- [ ] [Shadow](https://www.shodan.io/)
 
-	- [ ] Censys（https://censys.io/）
+	- [ ] [Censys](（)https://censys.io/)
 
-	- [ ] ZoomEye（https://www.zoomeye.org/）
+	- [ ] [ZoomEye](https://www.zoomeye.org/)
 
 - [ ] 工商信息
 
@@ -400,19 +400,19 @@
 
 同类型靶场打两个足以，不是非要都打一遍
 
-- [ ] hackxor（https://sourceforge.net/projects/hackxor/）
+- [ ] [hackxor](https://sourceforge.net/projects/hackxor/)
 
-- [ ] WebGoat（https://github.com/WebGoat/WebGoat）
+- [ ] [WebGoat](https://github.com/WebGoat/WebGoat)
 
-- [ ] hackademic（https://github.com/Hackademic/hackademic）
+- [ ] [hackademic](https://github.com/Hackademic/hackademic)
 
-- [ ] Google推出的Xss在线实验靶场（https://xss-game.appspot.com/）
+- [ ] [Google推出的Xss在线实验靶场](https://xss-game.appspot.com/)
 
-- [ ] DVWA（https://github.com/digininja/DVWA）
+- [ ] [DVWA](https://github.com/digininja/DVWA)
 
-- [ ] https://github.com/vulhub/vulhub
+- [ ] [vulhub](https://github.com/vulhub/vulhub)
 
-- [ ]  https://vulab.io/
+- [ ]  [vulab](https://vulab.io/)
 
 ## 漏扫工具
 
@@ -462,7 +462,7 @@
 
 				- [ ] Veil
 
-				- [ ] Empire（https://github.com/EmpireProject/Empire）
+				- [ ] [Empire](https://github.com/EmpireProject/Empire)
 
 				- [ ] Nishang: PowerShell
 
@@ -524,9 +524,9 @@
 
 - [ ] 拓扑
 
-	- [ ] 六种基本网络拓扑结构（https://zhuanlan.zhihu.com/p/267710797）
+	- [ ] [六种基本网络拓扑结构](https://zhuanlan.zhihu.com/p/267710797)
 
-	- [ ] 常见的网络拓扑结构是什么？（https://worktile.com/kb/ask/8703.html）
+	- [ ] [常见的网络拓扑结构是什么？](https://worktile.com/kb/ask/8703.html)
 
 - 横向移动
 
@@ -536,9 +536,9 @@
 
 	- 域
 
-		- [ ] 域控制器（1）之什么是域控（https://cloud.tencent.com/developer/article/1144854）
+		- [ ] [域控制器（1）之什么是域控](https://cloud.tencent.com/developer/article/1144854)
 
-		- [ ] （域渗透基本概念）https://www.freebuf.com/articles/web/253705.html
+		- [ ] [域渗透基本概念](https://www.freebuf.com/articles/web/253705.html)
 
 		- [ ]  Mimikatz
 
@@ -572,7 +572,7 @@
 
 ### 工具
 
--  Social-Engineer Toolkit (SET)（https://github.com/trustedsec/social-engineer-toolkit）
+-  [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit)
 
 - https://github.com/topics/phishing
 
@@ -638,23 +638,23 @@
 
 ## 学习资源
 
-- freebuf (https://www.freebuf.com/)
+- [freebuf](https://www.freebuf.com/)
 
-- 安全客（https://www.anquanke.com/）
+- [安全客](https://www.anquanke.com/)
 
-- 先知社区（https://xz.aliyun.com/）
+- [先知社区](https://xz.aliyun.com/)
 
--  助安社区（https://secself.com/）
+-  [助安社区](https://secself.com/)
 
-- 安全脉搏（https://www.secpulse.com/）
+- [安全脉搏](https://www.secpulse.com/)
 
-- seebug（https://paper.seebug.org/）
+- [seebug](https://paper.seebug.org/)
 
 - twitter
 
-- HackerOne（https://www.hackerone.com/）
+- [HackerOne](https://www.hackerone.com/)
 
-- hacktricks（https://book.hacktricks.xyz/welcome/readme）
+- [hacktricks](https://book.hacktricks.xyz/welcome/readme)
 
 -  https://weibell.github.io/reverse-shell-generator/
 
