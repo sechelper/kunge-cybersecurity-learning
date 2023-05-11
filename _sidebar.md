@@ -3,4 +3,5 @@
   - [逆向工程（敬请期待）](reverse.md)
   - [代码审计（敬请期待）](codereview.md)
   - [安全合规（敬请期待）](compliance.md)
+  - [CTF（敬请期待）](ctf.md)
 - [**致谢**](thanks.md)

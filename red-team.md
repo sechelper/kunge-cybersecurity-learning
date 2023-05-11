@@ -1,12 +1,9 @@
 ## 前置知识
 
 - [ ] 掌握操作系统使用
-
 - [ ] 熟练重装系统
-
 - [ ] 什么是web网站？
     - https://baike.baidu.com/item/web/150564
-
 - [ ] HTML/CSS/JS
 
     - https://www.w3schools.com/
@@ -14,21 +11,20 @@
     - https://developer.mozilla.org/zh-CN/docs/Web
 
     - https://www.runoob.com/tags/ref-standardattributes.html
-
 - [ ] Golang（未来趋势，良好的跨平台、优秀的多线程和网络处理）
   - [【坤哥力荐】4星期速成学会poc，摆脱脚本小子](https://www.bilibili.com/video/BV1vM411r7GW/)
 - [ ] Python（社区庞大，入门简单，可以作为初学语言）
   - https://www.bilibili.com/video/BV1qW4y1a7fU
 - [ ] Java（后端开发主流语言，通用漏洞发现几乎是最多的语言，学习难度大，不推荐）
 - [ ] 数据库（一种类型选择一个了解）
-	- Sql
-		- [ ] MySQL（推荐）
-		- [ ] Oracle
-		- [ ] MSSQL
-	- NoSql
-		- [ ] Redis（推荐）
-		- [ ] MongoDB
-		- [ ] ElasticSearch
+  - Sql
+  	- [ ] MySQL（推荐）
+  	- [ ] Oracle
+  	- [ ] MSSQL
+  - NoSql
+  	- [ ] Redis（推荐）
+  	- [ ] MongoDB
+  	- [ ] ElasticSearch
 
 掌握一门后端编程语言，有编程基础后续学习更顺利。
 
