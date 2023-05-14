@@ -56,16 +56,12 @@
 
 - [ ] 子网掩码（B段、C段）
 
-	- [ ] [如何理解子网掩码？](https://www.zhihu.com/question/56895036)
+  - [ ] [如何理解子网掩码？](https://www.zhihu.com/question/56895036)
+  - [ ] 工具
 
-	- [ ] 工具
-
-		- [ ] Masascan
-
-		- [ ] Zmap
-
-		- [ ] Nmap
-
+  	- [ ] Masascan
+  	- [ ] Zmap
+  	- [ ] Nmap
 - [ ] ASN
 
 	- [什么是自治系统？| 什么是 ASN？](https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/)
@@ -81,7 +77,6 @@
 		- [ ] Amass
 
 		- [ ] Zmap
-
 - [ ] IP反查域名
 
 	- https://www.ipaddress.com/
