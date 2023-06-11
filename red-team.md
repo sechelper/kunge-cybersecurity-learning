@@ -25,18 +25,24 @@
   	- [ ] Redis（推荐）
   	- [ ] MongoDB
   	- [ ] ElasticSearch
+- [ ] Linux基础命令（日常操作、应急和搭建靶场）
+  - [Linux命令速查手册](http://linux-command.kit.secself.com/)
+  - [Linux 命令大全](https://www.runoob.com/linux/linux-command-manual.html)
+- [ ] Docker（了解原理，日常使用无障碍）
+  - [Docker 教程](https://www.runoob.com/docker/docker-tutorial.html)
+  - [Docker Compose ](https://github.com/docker/compose)
 
 掌握一门后端编程语言，有编程基础后续学习更顺利。
 
 ### 协议
 
-助安社区开源的基础速成，点击 👉  [安全速学手册](http://security-base.book.secself.com/protocol/index.html)
+助安社区开源的基础速成，大部分基础协议都已整理完毕，点击 👉  [安全速学手册](http://security-base.book.secself.com/protocol/index.html)
 
 - [ ] HTTP协议
 
-  - https://developer.mozilla.org/zh-CN/docs/Web/HTTP
+  - [超文本传输协议（HTTP）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
 
-  - https://www.runoob.com/http/http-tutorial.html
+  - [HTTP 教程](https://www.runoob.com/http/http-tutorial.html)
 - [ ] ARP
 - [ ] DHCP
 - [ ] SMB
@@ -58,25 +64,23 @@
 
   - [ ] [如何理解子网掩码？](https://www.zhihu.com/question/56895036)
   - [ ] 工具
-
-  	- [ ] Masascan
-  	- [ ] Zmap
-  	- [ ] Nmap
+  	- [ ] [Masascan](https://github.com/robertdavidgraham/masscan)
+  	- [ ] [Zmap](https://zmap.io/)
+  	  - [ ] [zgrab2](https://github.com/zmap/zgrab2)
+  	- [ ] [Nmap](https://nmap.org)
 - [ ] ASN
 
 	- [什么是自治系统？| 什么是 ASN？](https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/)
-
 	- ASN 查询
-
+	
 		- https://hackertarget.com/as-ip-lookup/
-
+	
 		- https://dnschecker.org/asn-whois-lookup.php
-
 	- 工具
 
-		- [ ] Amass
-
-		- [ ] Zmap
+		- [ ] [Amass](https://github.com/owasp-amass/amass)
+		- [ ] [Zmap](https://zmap.io/)
+		  - [ ] [zcrypto](https://github.com/zmap/zcrypto)
 - [ ] IP反查域名
 
 	- https://www.ipaddress.com/
@@ -84,38 +88,25 @@
 ### 域名
 
 - [ ] 子域名（A记录/AAAA记录（IPV6））
-
 - [ ] CNAME
-
 - [ ] 邮箱记录（MX）
-
 - [ ] TXT
-
 - [ ] 历史记录
 
 	- https://securitytrails.com
-
 - [ ] 工具
 
 	- [ ] Whois
-
-	- [ ] Amass
-
-	- [ ] Layer
-
-	- [ ] subdomain3
-
-	- [ ] dnsmap
-
-	- [ ] Dnsenum
-
-	- [ ] ksubdomain 
+	- [ ] [Amass](https://github.com/owasp-amass/amass)
+	- [ ] [subdomain3](https://github.com/yanxiu0614/subdomain3.git)
+	- [ ] [dnsmap](https://github.com/resurrecting-open-source-projects/dnsmap)
+	- [ ] [ksubdomain ](https://github.com/knownsec/ksubdomain.git)
 
 ### 公开信息
 
 - [ ] 搜索引擎
 
-	- [ ] 黑客常用的Google搜索语法 https://www.exploit-db.com/google-hacking-database
+	- [ ] [黑客常用的Google搜索语法](https://www.exploit-db.com/google-hacking-database)
 
 - [ ] 网络空间搜索引擎
 
@@ -133,7 +124,7 @@
 
 	- [ ] 邮箱
 
-	- [ ] ICP备案信息（https://beian.miit.gov.cn/）
+	- [ ] [ICP备案信息](https://beian.miit.gov.cn/)
 
 	- [ ] 子公司
 
@@ -149,13 +140,13 @@
 
 ### 工具
 
-- [ ] Maltego
+- [ ] [Maltego](https://www.maltego.com/)
 
-- [ ] JSFinder
+- [ ] [JSFinder](https://github.com/Threezh1/JSFinder)
 
-- [ ] OneForAll
+- [ ] [OneForAll](https://github.com/shmilylty/OneForAll)
 
-- [ ] subdomain-scanner( https://github.com/topics/subdomain-scanner)
+- [ ] [subdomain-scanner]( https://github.com/topics/subdomain-scanner)
 
 ### 指纹
 
@@ -167,38 +158,20 @@
 
 - [ ] Owasp 漏洞
 
-	- OWASP Top 10 2021 介紹 
-
-		- https://owasp.org/Top10/zh_CN/
-
-	- 中文下载地址
-
-		- http://www.owasp.org.cn/OWASP-CHINA/owasp-project/OWASP-TOP10-2021%E4%B8%AD%E6%96%87%E7%89%88V1.0%E5%8F%91%E5%B8%83.pdf
-
+	- [OWASP Top 10 2021 介紹 ](https://owasp.org/Top10/zh_CN/)
+- [PDF中文下载地址](http://www.owasp.org.cn/OWASP-CHINA/owasp-project/OWASP-TOP10-2021%E4%B8%AD%E6%96%87%E7%89%88V1.0%E5%8F%91%E5%B8%83.pdf)
 - [ ] JSONP劫持
-
 - [ ] CRLF注入
-
 - [ ] 命令执行
-
 - [ ] 代码执行
-
 - [ ] XXE
-
 - [ ] CSRF
-
 - [ ] SSRF
-
 - [ ] DDOS
-
 - [ ] CRLF injection
-
 - [ ] 反序列化漏洞
-
 - [ ] 弱类型漏洞
-
 - [ ] 变量覆盖漏洞
-
 - [ ] Sql注入
 
 	- [ ] 类型
@@ -238,7 +211,6 @@
 		- [ ] 应用层
 
 		- [ ] 网络层
-
 - [ ] 文件漏洞
 
 	- [ ] 文件上传漏洞
@@ -284,7 +256,6 @@
 		- [ ] ⽂件远程包含
 
 		- [ ] ⽂件本地包含
-
 - [ ] XSS
 
 	- [ ] 基础知识
@@ -312,7 +283,6 @@
 			- [ ] CSP
 
 		- [ ] 缓冲区溢出GetShell
-
 - [ ] 逻辑漏洞
 
 	- [ ] 系统重装漏洞
@@ -320,7 +290,6 @@
 	- [ ] 手机验证
 
 	- [ ] 登入爆破
-
 - [ ] 任意用户密码重置
 
 	- [ ] 越权
@@ -350,7 +319,6 @@
 	- [ ] 越权
 
 	- [ ] 甲⽅安全测试方法
-
 - [ ] 敏感信息泄漏
 
 	- [ ] .git
@@ -365,9 +333,13 @@
 
 	- [ ] 默认账号/功能
 
-### 通用漏洞（https://cve.mitre.org/）
+### 通用漏洞披露
 
-- [ ] 多收集工具，订阅漏洞信息
+多收集工具，订阅漏洞信息
+
+- [ ] [CNVD](https://www.cnvd.org.cn/)
+
+- [ ] [CVE](https://cve.mitre.org/)
 
 ### 漏扫工具
 
@@ -632,34 +604,22 @@
 ## 学习资源
 
 - [freebuf](https://www.freebuf.com/)
-
 - [安全客](https://www.anquanke.com/)
-
 - [先知社区](https://xz.aliyun.com/)
-
--  [助安社区](https://secself.com/)
-
+- [助安社区](https://secself.com/)
 - [安全脉搏](https://www.secpulse.com/)
-
 - [seebug](https://paper.seebug.org/)
-
 - twitter
-
 - [HackerOne](https://www.hackerone.com/)
-
 - [hacktricks](https://book.hacktricks.xyz/welcome/readme)
-
--  https://weibell.github.io/reverse-shell-generator/
-
+- https://weibell.github.io/reverse-shell-generator/
 - https://github.com/0x00-0x00/ShellPop
-
 - https://github.com/xct/xc/
-
 - https://github.com/Hack-with-Github/Awesome-Hacking
-
--  https://github.com/zer0yu/Awesome-CobaltStrike
-
+- https://github.com/zer0yu/Awesome-CobaltStrike
 - https://github.com/alphaSeclab/awesome-rat
-
 -  https://www.exploit-db.com/
+-  [awesome-cybersecurity-blueteam](https://github.com/fabacab/awesome-cybersecurity-blueteam)    
+-  https://www.hackingarticles.in/category/wireless-hacking/
+-  https://github.com/The-Art-of-Hacking/h4cker
 
