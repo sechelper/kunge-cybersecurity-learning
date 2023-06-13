@@ -2,4 +2,4 @@
 
 <h2>感谢助安社区全体支持贡献</h2>
 
-[开始学习 Let Go](README.md)
+[开始学习 Let's Go](README.md)
