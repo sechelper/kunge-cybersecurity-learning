@@ -1,74 +1,625 @@
-# 全网首创，坤式网安学习法，最屌没有之一 
+## 前置知识
 
-🍓仓库地址： https://github.com/sechelper/kunge-cybersecurity-learning
+- [ ] 掌握操作系统使用
+- [ ] 熟练重装系统
+- [ ] 什么是web网站？
+    - https://baike.baidu.com/item/web/150564
+- [ ] HTML/CSS/JS
 
-看到网上看到乱七八糟安全学习路线图，写的技术估计自己都没学过，各种营销号就像是拿着棒棒糖在哄骗小孩子 **“来叔叔这，有糖吃”** 
+    - https://www.w3schools.com/
 
-**坤哥**之前也在内部分享过很多学习路线脑图，但内心其实都很不满意，存在以下痛点：
+    - https://developer.mozilla.org/zh-CN/docs/Web
 
-- 无法做笔记，学习路线脑图表达的思路是够清晰，点开某个分支一下子弹出一堆技术，不学就开始烦了，无从下手
-- 知识沉淀难，写文章、工具和收藏文章根本不是脑图的作用，直接死机（脑图是为更清晰表达具体思路，不是做这些），如果用在线博客或笔记软件记录这些也不直观，后期查找浪费时间。
-- 分享麻烦，难道每次分享都要给朋友发一个新版本，脑图已经做了记录怎么办，难道还要在合并，这个工作量不敢想象
-- 找人指正困难，沟通时总不能拿着脑图吧
+    - https://www.runoob.com/tags/ref-standardattributes.html
+- [ ] Golang（未来趋势，良好的跨平台、优秀的多线程和网络处理）
+  - [【坤哥力荐】4星期速成学会poc，摆脱脚本小子](https://www.bilibili.com/video/BV1vM411r7GW/)
+- [ ] Python（社区庞大，入门简单，可以作为初学语言）
+  - https://www.bilibili.com/video/BV1qW4y1a7fU
+- [ ] Java（后端开发主流语言，通用漏洞发现几乎是最多的语言，学习难度大，不推荐）
+- [ ] 数据库（一种类型选择一个了解）
+  - Sql
+  	- [ ] MySQL（推荐）
+  	- [ ] Oracle
+  	- [ ] MSSQL
+  - NoSql
+  	- [ ] Redis（推荐）
+  	- [ ] MongoDB
+  	- [ ] ElasticSearch
+- [ ] Linux基础命令（日常操作、应急和搭建靶场）
+  - [Linux命令速查手册](http://linux-command.kit.secself.com/)
+  - [Linux 命令大全](https://www.runoob.com/linux/linux-command-manual.html)
+- [ ] Docker（了解原理，日常使用无障碍）
+  - [Docker 教程](https://www.runoob.com/docker/docker-tutorial.html)
+  - [Docker Compose ](https://github.com/docker/compose)
 
-## 👊颠覆传统脑图式学习法
+掌握一门后端编程语言，有编程基础后续学习更顺利。
 
-💝坤哥在不断完善网安学习路线过程中，终于总结出一套**最屌**✨的学习法，它具有以下特色：
+### 协议
 
-- `checklist`式学习路线，学完就打勾，这就不会忘记学到哪里了吧
-- 随时记录成长、沉淀知识，运用`markown`语言做笔记，各大平台随便迁移 [【学习传送门】](https://www.runoob.com/markdown/md-tutorial.html)（PS：非必要`markown`，自己喜欢就好）
-- 学习资料集中管理，靶场、工具、字典和文章统统收藏进来，使用时一目了然，再也不用东拼西凑。
-- 分享个人成长路线，与朋友、学弟和水友交流技术，这不一个妥妥的提升逼格的好机会
+助安社区开源的基础速成，大部分基础协议都已整理完毕，点击 👉  [安全速学手册](http://security-base.book.secself.com/protocol/index.html)
 
-### 🤔如何使用？
+- [ ] HTTP协议
 
-**✨【必看】使用方法** 👉 [【传送门】](https://www.bilibili.com/video/BV1To4y1w72U)
-1. 先给坤哥安排一个`star`，仓库地址 👉 [【传送门】](https://github.com/sechelper/kunge-cybersecurity-learning)
-2. 【非必选】`fork` [坤式网安学习法仓库](https://github.com/sechelper/kunge-cybersecurity-learning)_到自己的`github`账户（笔记可以离线使用），后面补充一个`git`学习教程（记得提醒坤哥）
-3. 下载学习法到本地（推荐使用`Typroa`打开），选择适合个人的学习路线点击进去
-4. 学完一项技术点前面打对勾，表示学习完成，回头复习轻松又满足
-5. 每项技术有提供文章、方法和工具，你也可以记录笔记，大段文本放到note目录，学习将会是一个整体。
-6. 分享学习笔记，将仓库发到群里让小伙伴头来羡慕的眼光吧
+  - [超文本传输协议（HTTP）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
 
-坤哥会不断总结学习方法，让网络安全入门更容易，毕竟这东西太TMD难入门。
+  - [HTTP 教程](https://www.runoob.com/http/http-tutorial.html)
+- [ ] ARP
+- [ ] DHCP
+- [ ] SMB
+- [ ] DNS
+- [ ] 代理
+- [ ] HTTP
+- [ ] Socks5
+- [ ] VPN
+- [ ] FTP
+- [ ] SSH
 
-## 📚学习路线
+...
 
-点击下方链接查看学习路线，本站为在线演示，选项框是不可勾选的，使用方法参考<a href="#/README?id=%f0%9f%a4%94%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8%ef%bc%9f" data-id="🤔如何使用？" class="anchor"><span>🤔如何使用？</span></a>操作
+## 信息收集
 
-- [渗透红队](red-team.md)
-- [逆向工程（敬请期待）](reverse.md)
-- [代码审计（敬请期待）](codereview.md)
-- [安全合规（敬请期待）]()
+### 网络
 
-## 💡未来想法
+- [ ] 子网掩码（B段、C段）
 
-⭐大家记得`star`持续关注，以下更新第一时间分享到[【b站】（点赞、收藏、投币三连支持坤哥继续创作）](https://space.bilibili.com/1233892570)
+  - [ ] [如何理解子网掩码？](https://www.zhihu.com/question/56895036)
+  - [ ] 工具
+  	- [ ] [Masascan](https://github.com/robertdavidgraham/masscan)
+  	- [ ] [Zmap](https://zmap.io/)
+  	  - [ ] [zgrab2](https://github.com/zmap/zgrab2)
+  	- [ ] [Nmap](https://nmap.org)
+- [ ] ASN
 
-以下是未来的一些计划：
+	- [什么是自治系统？| 什么是 ASN？](https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/)
+	- ASN 查询
+	
+		- https://hackertarget.com/as-ip-lookup/
+	
+		- https://dnschecker.org/asn-whois-lookup.php
+	- 工具
 
-- 📚完善其它岗位学习路线，期待大家的参与。
-  - [逆向工程]()
-  - [代码审计](codereview.md)
-  - [安全合规]()
-  - [CTF]()
-- 区分**笔记母板**和个人笔记，克隆笔记后很多信息是非必要的，坤哥再想想克隆的时候怎么去除无用信息
-- 个人优秀学习笔记展示栏，分享优秀的个人笔记，这也是**坤式网安学习法**魅力所在，千人千面，不同成长经历总有一个符合自己预期
-- 为了增加社交属性，交换学习笔记（这个待定），设定评论区
+		- [ ] [Amass](https://github.com/owasp-amass/amass)
+		- [ ] [Zmap](https://zmap.io/)
+		  - [ ] [zcrypto](https://github.com/zmap/zcrypto)
+- [ ] IP反查域名
 
-- 👀 其它行业是否适合有待挖掘，欢迎交流`vx: apetpoch`，备注“坤学交流”。
-- 尽全力挖掘**坤式网安学习法**潜能，期待大家提供想法。
+	- https://www.ipaddress.com/
 
-## 💘支持一下
+### 域名
 
-📓其它资料领取和交流，点击下方链接：
+- [ ] 子域名（A记录/AAAA记录（IPV6））
+- [ ] CNAME
+- [ ] 邮箱记录（MX）
+- [ ] TXT
+- [ ] 历史记录
 
-- [b站，点赞、收藏、投币三连支持坤哥继续创作](https://space.bilibili.com/1233892570)每周三、周五晚8点准时直播，心里默念三遍，不要错过。
-- [关注公众号](https://paper.static.secself.com/img/qrcode/mp_qrcode2.png)
-- [交流群01](https://paper.static.secself.com/img/qrcode/qrcode-group-01.png)
-- [交流群02](https://paper.static.secself.com/img/qrcode/qrcode-group-01.png)
-- [交流群03](https://paper.static.secself.com/img/qrcode/qrcode-group-01.png)
+	- https://securitytrails.com
+- [ ] 工具
 
-### 💰守护坤哥发际线
+	- [ ] Whois
+	- [ ] [Amass](https://github.com/owasp-amass/amass)
+	- [ ] [subdomain3](https://github.com/yanxiu0614/subdomain3.git)
+	- [ ] [dnsmap](https://github.com/resurrecting-open-source-projects/dnsmap)
+	- [ ] [ksubdomain ](https://github.com/knownsec/ksubdomain.git)
 
-<center> <img style="height 400px; width: 400px;" src="https://paper.static.secself.com/img/qrcode/appreciatio-%20code2.jpg"></center>
+### 公开信息
+
+- [ ] 搜索引擎
+
+	- [ ] [黑客常用的Google搜索语法](https://www.exploit-db.com/google-hacking-database)
+
+- [ ] 网络空间搜索引擎
+
+	- [ ] [FOFA](https://fofa.info/)
+
+	- [ ] [Shadow](https://www.shodan.io/)
+
+	- [ ] [Censys](https://censys.io/)
+
+	- [ ] [ZoomEye](https://www.zoomeye.org/)
+
+- [ ] 工商信息
+
+	- [ ] 证书
+
+	- [ ] 邮箱
+
+	- [ ] [ICP备案信息](https://beian.miit.gov.cn/)
+
+	- [ ] 子公司
+
+	- [ ] 集团
+
+	- [ ] 合作商
+
+	- [ ] 供应商
+
+### HTTP
+
+- [ ] 网站目录
+
+### 工具
+
+- [ ] [Maltego](https://www.maltego.com/)
+
+- [ ] [JSFinder](https://github.com/Threezh1/JSFinder)
+
+- [ ] [OneForAll](https://github.com/shmilylty/OneForAll)
+
+- [ ] [subdomain-scanner]( https://github.com/topics/subdomain-scanner)
+
+### 指纹
+
+待补充
+
+## 漏洞挖掘
+
+### WEB漏洞（原理搞懂，靶场实践几次）
+
+- [ ] Owasp 漏洞
+
+	- [OWASP Top 10 2021 介紹 ](https://owasp.org/Top10/zh_CN/)
+- [PDF中文下载地址](http://www.owasp.org.cn/OWASP-CHINA/owasp-project/OWASP-TOP10-2021%E4%B8%AD%E6%96%87%E7%89%88V1.0%E5%8F%91%E5%B8%83.pdf)
+- [ ] JSONP劫持
+- [ ] CRLF注入
+- [ ] 命令执行
+- [ ] 代码执行
+- [ ] XXE
+- [ ] CSRF
+- [ ] SSRF
+- [ ] DDOS
+- [ ] CRLF injection
+- [ ] 反序列化漏洞
+- [ ] 弱类型漏洞
+- [ ] 变量覆盖漏洞
+- [ ] Sql注入
+
+	- [ ] 类型
+
+		- [ ] 报错
+
+		- [ ] 联合查询
+
+		- [ ] 堆查询
+
+		- [ ] 盲注
+
+	- [ ] 攻击利用
+
+		- [ ] 寻找注入点
+
+			- [ ] POST
+
+			- [ ] GET
+
+			- [ ] Cookie
+
+			- [ ] Header
+
+		- [ ] 手工注入
+
+		- [ ] DNSLog
+
+		- [ ] 工具注入
+
+		- [ ] GetShell
+
+		- [ ] 绕过防御
+
+	- [ ] 预防修复
+
+		- [ ] 应用层
+
+		- [ ] 网络层
+- [ ] 文件漏洞
+
+	- [ ] 文件上传漏洞
+
+		- [ ] 逻辑
+
+			- [ ] 黑白名单绕过
+
+			- [ ] MIME绕过
+
+			- [ ] 后端校验缺失
+
+		- [ ] 通用漏洞
+
+			- [ ] 截断
+
+			- [ ] 利用中间件漏洞绕过
+
+				- [ ] IIS 5.x/6.0
+
+				- [ ] Nginx
+
+				- [ ] apache
+
+			- [ ] 编辑器漏洞
+
+				- [ ] DotNetTextBox
+
+				- [ ] fckeditor
+
+				- [ ] eWebEditor
+
+				- [ ] UEditor
+
+			- [ ] 文件头
+
+			- [ ] .htaccess 绕过
+
+	- [ ] 文件删除漏洞
+
+	- [ ] 文件包含漏洞
+
+		- [ ] ⽂件远程包含
+
+		- [ ] ⽂件本地包含
+- [ ] XSS
+
+	- [ ] 基础知识
+
+		- [ ] 反射型
+
+		- [ ] 存储型
+
+		- [ ] DOM型
+
+	- [ ] 攻击利用
+
+		- [ ] XSS盲打平台
+
+		- [ ] DNSLog
+
+		- [ ] 绕过防御
+
+			- [ ] 同源策略
+
+			- [ ] CORS
+
+			- [ ] httpOnly
+
+			- [ ] CSP
+
+		- [ ] 缓冲区溢出GetShell
+- [ ] 逻辑漏洞
+
+	- [ ] 系统重装漏洞
+
+	- [ ] 手机验证
+
+	- [ ] 登入爆破
+- [ ] 任意用户密码重置
+
+	- [ ] 越权
+
+		- [ ] 纵向
+
+		- [ ] 横向
+
+	- [ ] 数据遍历
+
+	- [ ] 撞库
+
+	- [ ] ⽀付漏洞
+
+	- [ ] 任意密码重置
+
+	- [ ] 失效验证码
+
+		- [ ] 简单验证码（利⽤python图⽚识别出验证码内容）
+
+		- [ ] 验证码可重复使用
+
+		- [ ] 验证码遍历
+
+	- [ ] 短信轰炸
+
+	- [ ] 越权
+
+	- [ ] 甲⽅安全测试方法
+- [ ] 敏感信息泄漏
+
+	- [ ] .git
+
+	- [ ] .svn
+
+	- [ ] 备份⽂件
+
+	- [ ] 列⽬录
+
+	- [ ] 注释信息
+
+	- [ ] 默认账号/功能
+
+### 通用漏洞披露
+
+多收集工具，订阅漏洞信息
+
+- [ ] [CNVD](https://www.cnvd.org.cn/)
+
+- [ ] [CVE](https://cve.mitre.org/)
+
+### 漏扫工具
+
+- [ ] AWVS
+
+- [ ] APPSCAN
+
+- [ ] Nessus
+
+- [ ] Owasp ZAP
+
+- [ ]  Xray
+
+- [ ] Pocsuite
+
+- [ ] Goby
+
+## 后渗透
+
+### 操作系统
+
+- [ ] 持久化
+
+	- [ ] 稳定通道
+
+		- [ ] C&C
+
+		- web
+
+			- [ ] 正向代理
+
+			- [ ] 反向代理
+
+	- Bypass
+
+		- 杀毒
+
+			- 360
+
+			- 火绒
+
+			- 卡巴斯基
+
+			- 工具
+
+				- [ ] iodine
+
+				- [ ] Veil
+
+				- [ ] [Empire](https://github.com/EmpireProject/Empire)
+
+				- [ ] Nishang: PowerShell
+
+		- 权限
+
+			- [ ] 本地账户
+
+			- [ ] 域账户
+
+			- 工具
+
+				- [ ] Metasploit Framework
+
+				- [ ] Mimikatz
+
+	- 工具
+
+		- [ ] Rootkit
+
+		- [ ] Cobalt Strike
+
+		- [ ] Webshell
+
+		- [ ] Powersploit
+
+		- [ ] Unicorn
+
+		- [ ] Meterpreter
+
+		- [ ] Empire
+
+- [ ] 信息收集
+
+	- [ ] 账户认证信息
+
+	- [ ] 系统版本
+
+	- [ ] 配置文件
+
+	- [ ] 日志
+
+	- [ ] 网络连接（寻找管理段地址，顺腾摸瓜）
+
+	- [ ] 安全策略
+
+	- [ ] 系统环境变量
+
+	- [ ] 个人PC
+
+		- [ ] 浏览记录
+
+		- [ ] 社交信息
+
+### 内网
+
+- [ ] 信息收集
+
+	- [ ] 网络探测，部分工具参考信息收集部分
+
+- [ ] 拓扑
+
+	- [ ] [六种基本网络拓扑结构](https://zhuanlan.zhihu.com/p/267710797)
+
+	- [ ] [常见的网络拓扑结构是什么？](https://worktile.com/kb/ask/8703.html)
+
+- 横向移动
+
+	- 普通
+
+	- 零信任
+
+	- 域
+
+		- [ ] [域控制器（1）之什么是域控](https://cloud.tencent.com/developer/article/1144854)
+
+		- [ ] [域渗透基本概念](https://www.freebuf.com/articles/web/253705.html)
+
+		- [ ]  Mimikatz
+
+### 虚拟化
+
+- [ ] 容器
+
+- [ ] 云
+
+## 社会工程
+
+### 书籍
+
+- [ ] 社会工程 卷1 安全体系中的人性漏洞
+
+- [ ] 社会工程 卷2解读肢体语言
+
+- [ ] 社会工程 卷3 防范钓鱼欺诈
+
+### 水坑攻击
+
+待补充
+
+### 供应链攻击
+
+待补充
+
+### 钓鱼
+
+待补充
+
+### 工具
+
+-  [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit)
+
+- https://github.com/topics/phishing
+
+- https://github.com/topics/phishing-tool
+
+## 综合靶场
+
+同类型靶场打两个足以，不是非要都打一遍
+
+- [ ] HackTheBox 
+
+- [ ]  VulnHub
+
+- [ ]  TryHackMe 
+
+- [ ] Metasploitable
+
+- [ ] PentesterLab
+
+- [ ] [hackxor](https://sourceforge.net/projects/hackxor/)
+
+- [ ] [WebGoat](https://github.com/WebGoat/WebGoat)
+
+- [ ] [hackademic](https://github.com/Hackademic/hackademic)
+
+- [ ] [Google推出的Xss在线实验靶场](https://xss-game.appspot.com/)
+
+- [ ] [DVWA](https://github.com/digininja/DVWA)
+
+- [ ] [vulhub](https://github.com/vulhub/vulhub)
+
+- [ ]  [vulab](https://vulab.io/)
+
+## 实战
+
+待补充，红蓝对抗月底前上线。
+
+## 书籍推荐
+
+选择喜欢的看，不是都要看一遍
+
+- [ ] 《白帽子讲Web安全》
+
+- [ ] 《Web前端黑客技术揭秘》
+
+- [ ] 《Web应用安全权威指南》
+
+- [ ] 《黑客攻防技术宝典 Web实战篇》
+
+- [ ] 《白帽子讲网络安全》
+
+- [ ] 《Web渗透测试：实战指南》
+
+- [ ] 《Web安全攻防：漏洞剖析与防范》
+
+- [ ] 《OWASP权威指南》
+
+- [ ] 《Web安全深度剖析》
+
+- [ ] 《Web安全开发指南》
+
+- [ ] 《Metasploit渗透测试指南》
+
+- [ ] 《Web应用程序安全攻防》
+
+- [ ] 《黑客攻防技术宝典：Web实战篇》
+
+- [ ] 《白帽子讲Web安全》
+
+- [ ] 《互联网+安全：从入门到实践》
+
+- [ ] 《Kali Linux渗透测试实战》
+
+- [ ] 《Python渗透测试实战》
+
+- [ ] 《护网必备：网络安全入门与渗透测试实战》
+
+- [ ] 《黑客秘笈：渗透测试实战》
+
+- [ ] 《Web安全攻防之道》
+
+- [ ] 《企业安全渗透测试实战》
+
+- [ ] 《漏洞扫描与渗透测试：Web安全领域最佳实践》
+
+- [ ] 《渗透测试实战案例解析》
+
+- [ ] 《信息安全技术基础》
+
+- [ ] 《黑客攻防技术宝典：网络篇》
+
+- [ ] 《渗透测试实战详解》
+
+- [ ] 《黑客与计算机病毒防范攻略》
+
+- [ ] 《渗透测试实战指南》
+
+- [ ] 《Web渗透测试实战》
+
+- [ ]  《黑客与画家》
+
+## 学习资源
+
+- [freebuf](https://www.freebuf.com/)
+- [安全客](https://www.anquanke.com/)
+- [先知社区](https://xz.aliyun.com/)
+- [助安社区](https://secself.com/)
+- [安全脉搏](https://www.secpulse.com/)
+- [seebug](https://paper.seebug.org/)
+- twitter
+- [HackerOne](https://www.hackerone.com/)
+- [hacktricks](https://book.hacktricks.xyz/welcome/readme)
+- https://weibell.github.io/reverse-shell-generator/
+- https://github.com/0x00-0x00/ShellPop
+- https://github.com/xct/xc/
+- https://github.com/Hack-with-Github/Awesome-Hacking
+- https://github.com/zer0yu/Awesome-CobaltStrike
+- https://github.com/alphaSeclab/awesome-rat
+-  https://www.exploit-db.com/
+-  [awesome-cybersecurity-blueteam](https://github.com/fabacab/awesome-cybersecurity-blueteam)    
+-  https://www.hackingarticles.in/category/wireless-hacking/
+-  https://github.com/The-Art-of-Hacking/h4cker
+
