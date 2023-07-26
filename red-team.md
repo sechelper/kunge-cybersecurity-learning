@@ -114,7 +114,7 @@
 
 	- [ ] [Shadow](https://www.shodan.io/)
 
-	- [ ] [Censys](（)https://censys.io/)
+	- [ ] [Censys](https://censys.io/)
 
 	- [ ] [ZoomEye](https://www.zoomeye.org/)
 

@@ -22,8 +22,7 @@
 
 ### 🤔如何使用？
 
-**✨【必看】使用方法**   👉  [【传送门（还没录制，占坑）】](https://space.bilibili.com/1233892570)
-
+**✨【必看】使用方法** 👉 [【传送门】](https://www.bilibili.com/video/BV1To4y1w72U)
 1. 先给坤哥安排一个`star`，仓库地址 👉 [【传送门】](https://github.com/sechelper/kunge-cybersecurity-learning)
 2. 【非必选】`fork` [坤式网安学习法仓库](https://github.com/sechelper/kunge-cybersecurity-learning)_到自己的`github`账户（笔记可以离线使用），后面补充一个`git`学习教程（记得提醒坤哥）
 3. 下载学习法到本地（推荐使用`Typroa`打开），选择适合个人的学习路线点击进去
