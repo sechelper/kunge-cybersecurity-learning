@@ -1,5 +1,5 @@
-<h1> 全网首创，坤式网安学习法，最屌没有之一</h1>
+<h1> 助安社区红队自学小屋 </h1>
 
-<h2>感谢助安社区全体支持贡献</h2>
+<h3>全网首创checklist式红队学习路线，记录你的成长瞬间。</h3>
 
-[开始学习 Let's Go](README.md)
+[开始学习 Let's Go](README.md)   <a href="/red-team.zip">下载</a>
