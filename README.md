@@ -65,10 +65,3 @@
 
 - [b站，点赞、收藏、投币三连支持坤哥继续创作](https://space.bilibili.com/1233892570)每周三、周五晚8点准时直播，心里默念三遍，不要错过。
 - [关注公众号](https://paper.static.secself.com/img/qrcode/mp_qrcode2.png)
-- [交流群01](https://paper.static.secself.com/img/qrcode/qrcode-group-01.png)
-- [交流群02](https://paper.static.secself.com/img/qrcode/qrcode-group-01.png)
-- [交流群03](https://paper.static.secself.com/img/qrcode/qrcode-group-01.png)
-
-### 💰守护坤哥发际线
-
-<center> <img style="height 400px; width: 400px;" src="https://paper.static.secself.com/img/qrcode/appreciatio-%20code2.jpg"></center>
