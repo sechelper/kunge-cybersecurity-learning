@@ -1,3 +1,8 @@
+
+
+此仓库不在更新，请移步：https://github.com/xsecself/pentester-skills
+
+
 # 全网首创，坤式网安学习法，最屌没有之一 
 
 🍓仓库地址： https://github.com/sechelper/kunge-cybersecurity-learning
